@@ -1,0 +1,8 @@
+{
+  "name": "Szesze",
+  "short_name": "Szesze",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b0b0c",
+  "theme_color": "#0b0b0c"
+}

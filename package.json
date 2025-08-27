@@ -1,0 +1,13 @@
+{
+  "name": "szesze",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "docker compose up -d --build",
+    "stop": "docker compose down",
+    "logs": "docker compose logs -f",
+    "db:migrate": "docker compose run --rm api npm run migrate",
+    "test": "curl -f http://localhost:3000/health && curl -f http://localhost:5173"
+  }
+}
