@@ -1,0 +1,13 @@
+:root {
+  --color-black: #0b0b0c;
+  --color-deep-blue: #0f1c2e;
+  --color-green: #123524;
+  --color-gold: #f5c518;
+  --color-gold-bright: #ffd633;
+}
+
+.theme-dark {
+  background-color: var(--color-black);
+  color: var(--color-gold-bright);
+  min-height: 100vh;
+}
